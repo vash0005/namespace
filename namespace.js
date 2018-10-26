@@ -24,12 +24,12 @@
          
 
          newElement.addEventListener("mouseover", function(){
-             newElement.className.toggle("highlight");    
+             newElement.classList.toggle("highlight");    
         });
 
          newElement.addEventListener("mouseout", function(){
              
-             newElement.className.toggle("highlight");
+             newElement.classList.toggle("highlight");
              newElement.removeAttribute('style');
              
         });
